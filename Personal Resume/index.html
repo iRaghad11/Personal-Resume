@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software engineering student">
+    <meta name="keyboard" content="Software engineer, Raghad Askool, personal resume">
+    <title>Raghad Askool</title>
+    <link rel="icon" href="icons/user.ico">
+    <link rel="stylesheet" href="css/Style.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="home" id="home">
+        <nav>
+            <h2 id="header">Raghad Askool</h2>
+            <div>
+                <ul id="actions">
+                    <li>
+                        <a aria-current="page" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#edu">Education</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+            <button id="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+        <div class="content">
+            <div class="home-text">
+                <h2>About me</h2>
+                <p>I'm a sotware engineering student.</p>
+                <p>
+                    I have a passion for learning, seek to develop my skills and goin
+                    new experiences.
+                </p>
+            </div>
+            <div>
+                <img src="img/Hand-coding.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="edu" id="edu">
+        <div>
+            <img src="img/section2.png" alt="">
+        </div>
+        <div>
+            <h2>Education</h2>
+            <h3><b>Bachelor of software engineering</b></h3>
+            <p>
+                University of Jeddah, Collage of Computer Science and Engineering.
+            </p>
+            <p>2021-now</p>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+
+        <div class="box">
+            <div class="card">
+                <h4><em> Reservation Salon System</em></h4>
+                <div class="par">
+                    <p>
+                        Application that contains all the salons in Saudi Arabia and helps
+                        customers book an appointment at the salon electronically
+                    </p>
+                    <a href="projects/Online_reservation_salon_system_presentation.pdf" target="_blank">Project here</a>
+                </div>
+            </div>
+            <div class="card">
+                <h4><em>Smart Quran Application</em></h4>
+                <div class="par">
+                    <p>
+                        Software program that uses artificial intelligence techniques to
+                        facilitate learning the Holy Quran
+                    </p>
+                    <a href="projects/SmartQuran.pdf" target="_blank">Project here</a>
+                </div>
+            </div>
+            <div class="card">
+                <h4><em>Improve Locket Application</em></h4>
+                <div class="par">
+                    <p>
+                        Improving some features and interfaces of the Locket application
+                    </p>
+                    <a href="projects/project_UX.pdf" target="_blank">Project here</a>
+                </div>
+            </div>
+            <div class="card">
+                <h4><em>Dash cam feature in the Kolna Amn application</em></h4>
+                <div class="par">
+                    <p>
+                        Adding the Dash Cam feature to Kolona Amn app to facilitate
+                        monitoring traffic accidents
+                    </p>
+                    <a href="projects/DashCamProject.pdf" target="_blank">Project here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-me" id="contact-me">
+        <div class="form">
+            <div class="contact-info">
+                <div class="contact-form">
+                    <h2 class="title">Contact me</h2>
+                    <div class="info">
+                        <div class="information">
+                            <img src="img/email.png" class="icon" alt="">
+                            <p>Raghad.2441@gmail.com</p>
+                        </div>
+                        <div class="information">
+                            <img src="img/phone.png" class="icon" alt="">
+                            <p>966 55 724 9346</p>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <div class="socia-icon">
+                            <a href="https://x.com/vii02x?s=21&t=zd3QaLRNF69Q4eVGgcXwaQ" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com/ra16x?igshid=MzRlODBiNWFlZA==" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/raghad-askool-471890290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
+                                target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action="index.html" autocomplete="off">
+                <br>
+                <h4>I'll be glad to respond your message</h4>
+                <br><br>
+                <div class="container-input">
+                    <label>Name</label>
+                    <input type="text" name="name" class="input" placeholder="Enter your name" required>
+                </div>
+                <div class="container-input">
+                    <label>Email</label>
+                    <input type="email" name="email" class="input" placeholder="Enter your email" required>
+                </div>
+                <div class="container-input">
+                    <label>Phone</label>
+                    <input type="tel" name="phone" class="input" placeholder="Enter your phone number"
+                        pattern="[0-9] {9}">
+                </div>
+                <div class="container-input textarea">
+                    <label>Message</label>
+                    <textarea name="message" class="input" placeholder="Enter a message" required></textarea>
+                </div>
+                <div class="container-input">
+                    <input type="submit" value="Send" class="button">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <h5>Copyright &copy; 2023 Raghad Askool</h5>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
